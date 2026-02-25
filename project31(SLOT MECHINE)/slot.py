@@ -14,6 +14,7 @@ symbol_count = {
     "D": 8
 }
 
+#defines how much each symbol pays
 symbol_value = {
     "A": 5,
     "B": 4,
@@ -36,6 +37,9 @@ def check_winnings(columns, lines, bet, values):
             winning_lines.append(line + 1)
 
     return winnings, winning_lines
+
+
+
 
 
 def get_slot_machine_spin(rows, cols, symbols):
