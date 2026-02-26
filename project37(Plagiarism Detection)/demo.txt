@@ -1,0 +1,4 @@
+Artificial Intelligence is transforming the world.
+Machine learning allows computers to learn from data.
+Python is widely used in data science and AI development.
+Automation is the future of technology.
