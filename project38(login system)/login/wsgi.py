@@ -1,16 +1,16 @@
 """
-WSGI config for login_system_1 project.
+WSGI config for geeksforgeeks project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
+https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "login_system_1.settings")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'geeksforgeeks.settings')
 
 application = get_wsgi_application()
